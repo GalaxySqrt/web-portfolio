@@ -166,6 +166,7 @@ body {
 
     .cabecalho__nav {
         justify-content: center;
+        justify-items: center;
         gap: 1rem;
     }
 
@@ -184,3 +185,4 @@ body {
     }
 
 }
+

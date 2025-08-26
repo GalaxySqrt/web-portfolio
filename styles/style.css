@@ -41,7 +41,7 @@ body {
 
 .cabecalho__nav {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     align-items: center;
 }
 
@@ -58,6 +58,14 @@ body {
 }
 
 .apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.apresentacao__about {
     padding: 5% 15%;
     display: flex;
     align-items: center;
@@ -151,17 +159,23 @@ body {
     border: 4px solid #d62976;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .cabecalho {
         padding: 5%;
     }
 
     .cabecalho__nav {
         justify-content: center;
+        gap: 1rem;
     }
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__about {
+        flex-direction: column;
         padding: 5%;
     }
 
